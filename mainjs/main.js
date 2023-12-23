@@ -73,6 +73,41 @@
 
 //   let sum = arr(user);
 //   console.log( sum);
+
+
+
+
+
+//                      4-masala
+
+
+function arr(arg) {
+    let sum = 0;
+  
+    for (let i = 0; i < arg.length; i++) {
+      let element = arg[i];
+  
+      if (isTub(element)) {
+        sum += element;
+      }
+    }
+  
+    return sum;
+  }
+  
+  function isTub(n) {
+    if (n <= 1) return ;
+    for (let i = 2; i <= Math.sqrt(n); i++) {
+      if (n % i === 0) return false;
+    }
+    return true;
+  }
+  
+  let testMassiv = [1,2 , 3 , 4];
+  
+  let natijaYigindi = arr(testMassiv);
+    console.log( natijaYigindi);
+  
   
 
   
