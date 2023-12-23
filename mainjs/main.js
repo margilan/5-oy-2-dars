@@ -43,33 +43,36 @@
 //   console.log(soz);
 
 
+//domla bu misolda bosh harflariga yangi massiv qlalmadm
+
+
 
 
 
 //                                3-masala
 
 
-let user = {
-    age:13,
-    year:10,
-    hullas:10,
-  };
+// let user = {
+//     age:13,
+//     year:10,
+//     hullas:10,
+//   };
 
-function arr(arg) {
-    let count = 0;
+// function arr(arg) {
+//     let count = 0;
   
-    for (let key in arg) {
-      if (typeof arg[key] === 'number') {
-        count += arg[key];
-      }
-    }
+//     for (let key in arg) {
+//       if (typeof arg[key] === 'number') {
+//         count += arg[key];
+//       }
+//     }
   
-    return count;
-  }
+//     return count;
+//   }
   
 
-  let sum = arr(user);
-  console.log( sum);
+//   let sum = arr(user);
+//   console.log( sum);
   
 
   
