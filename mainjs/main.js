@@ -81,32 +81,44 @@
 //                      4-masala
 
 
-function arr(arg) {
-    let sum = 0;
+// function arr(arg) {
+//     let sum = 0;
   
-    for (let i = 0; i < arg.length; i++) {
-      let element = arg[i];
+//     for (let i = 0; i < arg.length; i++) {
+//       let element = arg[i];
   
-      if (isTub(element)) {
-        sum += element;
-      }
-    }
+//       if (isTub(element)) {
+//         sum += element;
+//       }
+//     }
   
-    return sum;
-  }
+//     return sum;
+//   }
   
-  function isTub(n) {
-    if (n <= 1) return ;
-    for (let i = 2; i <= Math.sqrt(n); i++) {
-      if (n % i === 0) return false;
-    }
-    return true;
-  }
+//   function isTub(n) {
+//     if (n <= 1) return;
+//     for (let i = 2; i <= Math.sqrt(n); i++) {
+//       if (n % i === 0) return false;
+//     }
+//     return true;
+//   }
   
-  let testMassiv = [1,2 , 3 , 4];
+//   let count = [1,2 , 3 , 4];
   
-  let natijaYigindi = arr(testMassiv);
-    console.log( natijaYigindi);
+//   let counter = arr(count);
+//     console.log( counter);
+
+
+//              5-masala
+
+
+// function arr(son) {
+//     return son % 2 !== 0 ? son * 2 : son;
+//   }
+//   let number = 2;
+//   let sum = arr(number);
+//   console.log( sum);
+  
   
   
 
