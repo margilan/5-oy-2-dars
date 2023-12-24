@@ -118,6 +118,10 @@
 //   let number = 2;
 //   let sum = arr(number);
 //   console.log( sum);
+
+
+
+//vazifa tugatildi
   
   
   
